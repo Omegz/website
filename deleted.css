@@ -1,0 +1,218 @@
+.container { 
+    position: relative;
+    z-index: -1;
+  }
+  
+  .set-default{
+      margin-left: 800px;
+  }
+
+  .text-overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  img {
+    z-index: 0;
+
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .recipeImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+
+  .recipeImg{
+      opacity: 100%;
+  }
+
+  .recipeTitles{
+      color: firebrick;
+      font-size: 120px;
+      text-align: center;
+  }
+
+  .chooseNoodles{
+      color: white;
+      font-size: 50px;
+  }
+
+
+
+
+    .noodlesChoice {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+       
+      }
+      
+      .noodlesChoice img {
+        width: 120px;
+        height: 120px;
+        margin-top: -50px;
+      }
+      
+
+      .noodlesOption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        z-index: 1;
+      }
+      
+    
+      input[type="radio"] {
+          display: flex;
+          z-index: -1;
+          margin-top: 10px;
+          background-color: red;
+      }
+
+      input[type="radio"] + label {
+        width: 100px;
+        height: 20px;
+        background-color:blue;
+       i
+      }
+
+
+
+      ----------
+
+      .second-container { 
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+      }
+
+      .second-image-container{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       
+       
+    
+      }
+
+      .protienOption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    
+       
+      }
+     
+      .text-overlay-2 {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        top: 30%;
+        left: 10%;
+        transform: translate(0%, -50%);
+        text-align: center;
+        color: white;
+        z-index: 1;
+      }
+
+      .proteinOption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+      }
+
+
+      .proteinChoice{
+          display: flex;
+          flex-direction: row;
+      }
+
+
+      .proteinChoice img{
+       width: 120px;
+    }
+
+    .extra-btm{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .extra-btm img {
+        width: 120px;
+    }
+
+
+
+    --------
+
+    .questions img{
+        width: 120px;
+    }
+    
+    .questions{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .noodlesOption{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .recipeImg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    
+      }
+    
+      body, html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    
+      #questionnaire{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        z-index: 1;
+      }
+      .container{
+          position: absolute;
+      }
